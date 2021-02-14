@@ -1,4 +1,3 @@
-
 /*----------------------------------------
  0.  CSS COLORS
 ----------------------------------------*/
@@ -6,19 +5,18 @@
 :root {
   --primary-color: #cf0e0e;
   --secondary-color: white;
-  --third-color: #c39595;  
+  --third-color: #c39595;
 }
-
 
 /*----------------------------------------
   1.  MAIN CSS
 ----------------------------------------*/
 
-html, body {
+html,
+body {
   height: 100%;
-  color: #FFFFFF;
-    /* overflow: hidden;  */
-
+  color: #ffffff;
+  /* overflow: hidden;  */
 }
 
 a:focus {
@@ -38,7 +36,12 @@ p {
   margin: 0 0 15px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Raleway', sans-serif;
   margin: 0 0 15px;
   font-weight: 500;
@@ -80,17 +83,18 @@ a {
 }
 
 a:hover {
-  color: #3EC1D5;
+  color: #3ec1d5;
   text-decoration: none;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
   outline: 0 none;
 }
 
 .tonyred h2 span {
-color: var(--primary-color);
-font-weight: 900;
+  color: var(--primary-color);
+  font-weight: 900;
 }
 
 body {
@@ -149,7 +153,17 @@ ul {
   padding: 0;
 }
 
-input, select, textarea, input[type="text"], input[type="date"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"], button, button[type="submit"] {
+input,
+select,
+textarea,
+input[type='text'],
+input[type='date'],
+input[type='url'],
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+button,
+button[type='submit'] {
   -moz-appearance: none;
   box-shadow: none !important;
 }
@@ -180,26 +194,24 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   margin-bottom: 5%;
   position: relative;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.novidade-area.price{
+.novidade-area.price {
   min-height: 100%;
 }
-.novidade-area.price .section-headline h2{
+.novidade-area.price .section-headline h2 {
   margin-top: 5%;
   margin-bottom: 2%;
-  
 }
-.price .section-headline p{
+.price .section-headline p {
   font-size: 20px;
   margin-top: -20px;
-
 }
 
 .section-headline h2::after {
   /* border: 1px solid #7e6565; */
   bottom: -20px;
-  content: "";
+  content: '';
   left: 0;
   margin: 0 auto;
   position: absolute;
@@ -216,18 +228,16 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
 }
-.subtitle a{
-  color: #FFFFFF;
+.subtitle a {
+  color: #ffffff;
 }
-.subtitle::before{
-  border: 1px solid #FFFFFF;
-  content: "";
+.subtitle::before {
+  border: 1px solid #ffffff;
+  content: '';
   margin: -10px auto;
   position: absolute;
   width: 12%;
 }
-
-
 
 /*--------------------------------
  2. HEADER
@@ -268,7 +278,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #fff;
   bottom: 0px;
-  content: "";
+  content: '';
   left: 0;
   position: absolute;
   width: 100%;
@@ -291,7 +301,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 
 .main-menu ul.navbar-nav li a:hover {
   color: var(--primary-color);
-  font-weight: bolder; 
+  font-weight: bolder;
 }
 
 .navbar {
@@ -303,7 +313,9 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
 
-.main-menu ul.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.main-menu ul.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   background: none;
   color: #333;
 }
@@ -315,12 +327,14 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   padding: 25px 0px;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
   background-color: transparent;
   color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
   background: none;
 }
 
@@ -337,7 +351,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   margin-left: 20px;
 }
 
-.top-right.text-right>li {
+.top-right.text-right > li {
   float: right;
   margin: 0px 8px;
 }
@@ -372,11 +386,11 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   height: 90px;
 }
 
- .navbar-brand>img {
+.navbar-brand > img {
   display: none;
 }
 
- .navbar-brand.sticky-logo>img {
+.navbar-brand.sticky-logo > img {
   display: block;
 }
 
@@ -384,7 +398,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   color: #fff;
   padding: 0;
   margin: 0;
-  font-size: 36px;  
+  font-size: 36px;
   font-weight: bold;
   line-height: 1;
 }
@@ -395,13 +409,13 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #fff;
   bottom: 0px;
-  content: "";
+  content: '';
   left: 0;
   position: absolute;
   width: 100%;
 }
 
-.main-menu ul.nav>li>a:hover {
+.main-menu ul.nav > li > a:hover {
   color: #fff;
 }
 
@@ -416,13 +430,13 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 --------------------------------*/
 
 .about-area {
-  background-color:#d34848;
-  min-height:100%;
+  background-color: #d34848;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.well-middle .single-well{
+.well-middle .single-well {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -430,10 +444,10 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
   align-items: left;
 }
 
-.single-well>a {
+.single-well > a {
   display: block;
 }
-.single-well h1{
+.single-well h1 {
   color: #fff;
   font-size: 50px;
   text-align: left;
@@ -445,7 +459,7 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 }
 
 .single-well ul li i {
-  color: #3EC1D5;
+  color: #3ec1d5;
   padding-right: 10px;
   font-size: 12px;
 }
@@ -453,55 +467,54 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 .single-well p {
   color: #000;
   font-size: 30px;
-
 }
-.single-well .ready-btn{
+.single-well .ready-btn {
   width: fit-content;
   color: #fff;
 }
-.single-well .ready-btn:hover{
+.single-well .ready-btn:hover {
   background-color: #fff;
   color: #d34848;
 }
-.single-well ul li i{
+.single-well ul li i {
   color: var(--primary-color);
 }
 /* the images part */
-.well-left .single-well{
+.well-left .single-well {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-    align-items: center;
+  align-items: center;
 }
-.well-left img{
-  max-width:100%;
+.well-left img {
+  max-width: 100%;
   height: auto;
 }
-.single-well .float{
+.single-well .float {
   /* position:sticky; */
-margin-top: -80px;
-  width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
+  margin-top: -80px;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
   border: #fff solid 1px;
 }
-.my-float{
-	margin-top:22px;
+.my-float {
+  margin-top: 22px;
 }
 
 /*--------------------------------
 4. Yellow
 --------------------------------*/
-.about-area.yellow{
+.about-area.yellow {
   background-color: #ffb33f;
 }
-.about-area.yellow .single-well .ready-btn:hover{
+.about-area.yellow .single-well .ready-btn:hover {
   color: #ffb33f;
-} 
+}
 /* venne */
 .venn-container {
   margin: 25px 25px 180px 200px;
@@ -525,8 +538,8 @@ margin-top: -80px;
 .venncircle > a {
   font-size: 19px;
   font-weight: bold;
-  letter-spacing: .004em;
-  color: #FFFFFF;
+  letter-spacing: 0.004em;
+  color: #ffffff;
   text-decoration: none;
   text-align: center;
 }
@@ -547,8 +560,8 @@ margin-top: -80px;
 .venncirctop > a {
   font-size: 19px;
   font-weight: bold;
-  letter-spacing: .1em;
-  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  color: #ffffff;
   text-decoration: none;
   position: absolute;
   margin-top: 45%;
@@ -575,8 +588,8 @@ margin-top: -80px;
 .venncirclft > a {
   font-size: 35px;
   font-weight: bold;
-  letter-spacing: .1em;
-  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  color: #ffffff;
   text-decoration: none;
   position: absolute;
   margin-top: 45%;
@@ -595,14 +608,13 @@ margin-top: -80px;
   background-color: #000;
   z-index: 1;
   position: relative;
-
 }
 
-.venncircbtm > a  {
+.venncircbtm > a {
   font-size: 15px;
   font-weight: bold;
-  letter-spacing: .1em;
-  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  color: #ffffff;
   position: absolute;
   margin-top: 40%;
   margin-left: -35%;
@@ -620,7 +632,6 @@ margin-top: -80px;
   border: 1px solid #fff;
 }
 
-
 /*--------------------------------
 4. SERVIÇOS
 --------------------------------*/
@@ -633,7 +644,7 @@ margin-top: -80px;
   margin-bottom: 20px;
 }
 
-.section-headline.services-head>h2 {
+.section-headline.services-head > h2 {
   margin-bottom: 25px;
 }
 
@@ -642,7 +653,8 @@ margin-top: -80px;
   transition: all 0.5s ease 0s;
 }
 
-.services-details:hover h4, .services-details:hover .services-icon {
+.services-details:hover h4,
+.services-details:hover .services-icon {
   color: var(--primary-color);
 }
 
@@ -650,17 +662,17 @@ margin-top: -80px;
   margin-top: 40px;
 }
 
-.section-head>h2 {
+.section-head > h2 {
   color: #333;
 }
 
-.single-services>h4 {
+.single-services > h4 {
   color: #444;
   font-size: 24px;
   font-weight: 500;
 }
 
-.single-services>p {
+.single-services > p {
   color: #333;
   font-size: 14px;
 }
@@ -670,7 +682,7 @@ margin-top: -80px;
 ----------------------------------------*/
 
 .test-overly {
-  background: rgba(0, 0, 0, 0.80);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -684,7 +696,7 @@ margin-top: -80px;
   padding: 0;
 }
 
-.panel-default>.panel-heading {
+.panel-default > .panel-heading {
   background-color: transparent;
   border: medium none;
   color: #333;
@@ -705,7 +717,7 @@ margin-top: -80px;
 }
 
 .faq-details h4.check-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0;
@@ -717,7 +729,7 @@ margin-top: -80px;
 
 .faq-details a span.acc-icons::before {
   color: #333;
-  content: "";
+  content: '';
   font-family: fontawesome;
   font-size: 24px;
   height: 40px;
@@ -729,12 +741,13 @@ margin-top: -80px;
   width: 42px;
 }
 
-.faq-details h4.check-title a.active, .faq-details a.active span.acc-icons::before {
+.faq-details h4.check-title a.active,
+.faq-details a.active span.acc-icons::before {
   color: var(--primary-color);
 }
 
 .faq-details a.active span.acc-icons::before {
-  content: "";
+  content: '';
   font-family: fontawesome;
   font-size: 24px;
   height: 40px;
@@ -754,7 +767,7 @@ margin-top: -80px;
   text-transform: capitalize;
 }
 
-.tab-menu .nav-tabs>li>a:hover {
+.tab-menu .nav-tabs > li > a:hover {
   border-color: #eee #eee #ddd;
 }
 
@@ -790,7 +803,9 @@ margin-top: -80px;
   font-size: 18px;
 }
 
-.tab-menu ul li.active a, .tab-menu ul li.hover a, .tab-menu ul li.focus a {
+.tab-menu ul li.active a,
+.tab-menu ul li.hover a,
+.tab-menu ul li.focus a {
   border-bottom: 1px solid #fff;
   color: var(--primary-color);
 }
@@ -808,31 +823,29 @@ margin-top: -80px;
   height: 20%;
 }
 
-
 /*----------------------------------------
  7. SUBSCRIÇÃO
 ----------------------------------------*/
 
 .wellcome-area {
   /* background: rgba(248, 248, 248, 0.8) url("../img/background/bg1.jpg"); */
-background-color: #000;
+  background-color: #000;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  
 }
-.row > .center{
-margin-top: 5%;
+.row > .center {
+  margin-top: 5%;
 }
 .wellcome-text {
   margin: 70px 0;
   padding: 30px 40px;
 }
 
-.well-text>h2 {
+.well-text > h2 {
   color: #fff;
   font-size: 44px;
   font-weight: 500;
@@ -849,7 +862,6 @@ margin-top: 5%;
   margin-bottom: 0;
 }
 
-
 /*----------------------------------------
  8. A EQUIPA
 ----------------------------------------*/
@@ -864,8 +876,8 @@ margin-top: 5%;
 }
 
 .team-member::before {
-  background: rgba(0, 0, 0, 0) url("../img/team/team01.jpg") repeat scroll 0 0;
-  content: "";
+  background: rgba(0, 0, 0, 0) url('../img/team/team01.jpg') repeat scroll 0 0;
+  content: '';
   display: block;
   height: 100%;
   left: 0;
@@ -908,29 +920,29 @@ margin-top: 5%;
   position: relative;
 }
 
-.team-img>a {
+.team-img > a {
   display: block;
 }
 
-.team-img>a::after {
-  background: rgba(0, 0, 0, 0.70);
+.team-img > a::after {
+  background: rgba(0, 0, 0, 0.7);
   bottom: 0;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   position: absolute;
   transition: all 0.5s ease 0s;
   width: 100%;
-  opacity: 0;  
+  opacity: 0;
 }
 
 .team-social-icon {
-  left:65%;
+  left: 65%;
   margin-left: -61px;
   opacity: 0;
   position: absolute;
   top: 30%;
-  transition: 1.3s;  
+  transition: 1.3s;
 }
 
 .team-social-icon ul li {
@@ -959,7 +971,8 @@ margin-top: 5%;
   padding: 10px 0px;
 }
 
-.team-content>h4, .team-content>p {
+.team-content > h4,
+.team-content > p {
   color: #444;
   margin-bottom: 5px;
 }
@@ -1046,7 +1059,8 @@ margin-top: 5%;
   padding: 10px 20px;
 }
 
-.ready-btn, .ready-btn-jtn {
+.ready-btn,
+.ready-btn-jtn {
   border: 1px solid #fff;
   border-radius: 30px;
   color: #fff;
@@ -1096,7 +1110,8 @@ margin-top: 5%;
   transition: all 0.3s ease 0s;
 }
 
-.project-menu li a.active, .project-menu li a:hover {
+.project-menu li a.active,
+.project-menu li a:hover {
   border-color: var(--primary-color);
   background: var(--primary-color);
   color: #fff;
@@ -1127,12 +1142,12 @@ margin-top: 5%;
   position: relative;
 }
 
-.awesome-img>a {
+.awesome-img > a {
   display: block;
   position: relative;
 }
 
-.single-awesome-project:hover .awesome-img>a::after {
+.single-awesome-project:hover .awesome-img > a::after {
   opacity: 1;
 }
 
@@ -1141,9 +1156,9 @@ margin-top: 5%;
   bottom: 0;
 }
 
-.awesome-img>a::after {
+.awesome-img > a::after {
   background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   position: absolute;
@@ -1250,7 +1265,7 @@ margin-top: 5%;
 }
 
 .pri_table_list li.check.cross::after {
-  content: "\f00d";
+  content: '\f00d';
   font-family: fontawesome;
   font-size: 14px;
   position: absolute;
@@ -1260,7 +1275,7 @@ margin-top: 5%;
 }
 
 .pri_table_list li.check::after {
-  content: "\f00c";
+  content: '\f00c';
   font-family: fontawesome;
   font-size: 14px;
   position: absolute;
@@ -1280,7 +1295,7 @@ margin-top: 5%;
   border-radius: 30px;
 }
 
-.pri_table_list>h3 {
+.pri_table_list > h3 {
   color: #333;
   font-size: 24px;
   font-weight: 700;
@@ -1319,13 +1334,13 @@ margin-top: 5%;
   -moz-transform: rotate(-45deg);
 }
 
-.pri_table_list>button:hover {
+.pri_table_list > button:hover {
   background-color: #fff;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
 
-.active>h3 {
+.active > h3 {
   background: #f5f5f5 none repeat scroll 0 0;
   color: #333;
   transition: all 0.4s ease 0s;
@@ -1336,7 +1351,8 @@ margin-top: 5%;
 ----------------------------------------*/
 
 .testimonials-area {
-  background: rgba(0, 0, 0, 0) url("../img/background/slider1.jpg") no-repeat fixed center top / cover;
+  background: rgba(0, 0, 0, 0) url('../img/background/slider1.jpg') no-repeat
+    fixed center top / cover;
   height: auto;
   width: 100%;
 }
@@ -1396,7 +1412,11 @@ margin-top: 5%;
   font-size: 20px;
 }
 
-.testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot>span {
+.testimonial-carousel.owl-carousel.owl-theme
+  .owl-controls
+  .owl-dots
+  div.owl-dot
+  > span {
   background: #fff none repeat scroll 0 0;
   display: inline-block;
   height: 8px;
@@ -1421,16 +1441,23 @@ margin-top: 5%;
   margin-bottom: 15px;
 }
 
-.testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot {
+.testimonial-carousel.owl-carousel.owl-theme
+  .owl-controls
+  .owl-dots
+  div.owl-dot {
   display: inline-block;
   margin: 0 3px;
 }
 
-.testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-dots div.owl-dot.active span {
+.testimonial-carousel.owl-carousel.owl-theme
+  .owl-controls
+  .owl-dots
+  div.owl-dot.active
+  span {
   background: var(--primary-color);
 }
 
-.testi-text.text-center>h6 {
+.testi-text.text-center > h6 {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -1442,7 +1469,7 @@ margin-top: 5%;
   font-size: 16px;
 }
 
-.guest-rev>a {
+.guest-rev > a {
   color: var(--primary-color);
   font-size: 14px;
 }
@@ -1454,35 +1481,37 @@ margin-top: 5%;
 .novidade-area {
   min-height: 100%;
   width: 100%;
-  background:#000;
+  background: #000;
 }
-.single-novidade{
-padding-right: 20%;
-padding-bottom: 10%;
+.single-novidade {
+  padding-right: 20%;
+  padding-bottom: 10%;
 }
-.subtitle.one::before{
+.subtitle.one::before {
   border: 1px solid #d34848;
 }
 
-.subtitle.two::before{
+.subtitle.two::before {
   border: 1px solid #1fe1e9;
 }
 
-.subtitle.three::before{
+.subtitle.three::before {
   border: 1px solid #ffb33f;
 }
-.novidade-text .one a{
+.novidade-text .one a,
+.one {
   color: #d34848;
   text-decoration: none;
-  
 }
 
-.novidade-text .two a {
+.novidade-text .two a,
+.two {
   color: #1fe1e9;
   text-decoration: none;
 }
 
-.novidade-text .three a {
+.novidade-text .three a,
+.three {
   color: #ffb33f;
   text-decoration: none;
 }
@@ -1498,7 +1527,7 @@ padding-bottom: 10%;
 }
 
 .novidade-text p {
-  color: #FFFFFF;
+  color: #ffffff;
   letter-spacing: 1px;
   font-size: 20px;
 }
@@ -1508,59 +1537,184 @@ padding-bottom: 10%;
 }
 
 .novidade-area ul li i {
-  color: #3EC1D5;
+  color: #3ec1d5;
   padding-right: 10px;
   font-size: 12px;
 }
 
 .novidade-area p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
-
 }
-.novidade-area .ready-btn{
+.novidade-area .ready-btn {
   width: fit-content;
   color: #fff;
 }
-.novidade-area .ready-btn:hover{
+.novidade-area .ready-btn:hover {
   background-color: #fff;
   color: #d34848;
 }
-.novidade-area ul li i{
-  color: #FFFFFF;
+.novidade-area ul li i {
+  color: #ffffff;
 }
 /* PRICING */
 
-.novidade-area.price .ready-btn.one:hover{
-background-color: #d34848;
-color: #FFFFFF;
-border: 0ch;
-}
-.novidade-area.price .ready-btn.two:hover{
-  background-color: #1fe1e9;
-  color: #FFFFFF;
+.novidade-area.price .ready-btn.one:hover {
+  background-color: #d34848;
+  color: #ffffff;
   border: 0ch;
-  }
-  .novidade-area.price .ready-btn.three:hover{
-    background-color: #ffb33f;
-    color: #FFFFFF;
-    border: 0ch;
-    }
+}
+.novidade-area.price .ready-btn.two:hover {
+  background-color: #1fe1e9;
+  color: #ffffff;
+  border: 0ch;
+}
+.novidade-area.price .ready-btn.three:hover {
+  background-color: #ffb33f;
+  color: #ffffff;
+  border: 0ch;
+}
 /* perks in price */
-.novidade-area.perks-in-price{
+.novidade-area.perks-in-price {
   background-color: #d34848;
   min-height: auto;
 }
-.novidade-area.perks-in-price p{
+.novidade-area.perks-in-price p {
   color: #000;
 }
-.novidade-area.perks-in-price .section-headline{
+.novidade-area.perks-in-price .section-headline {
   margin-top: -5%;
   padding: 0;
 }
-.novidade-area.perks-in-price .area-padding{
+.novidade-area.perks-in-price .area-padding {
   padding-bottom: 0;
 }
+
+/* -------------------------
+    Payment use News Template
+----------------------------*/
+.novidade-area.payment {
+  background-color: #ffffff;
+  color: #000;
+  min-height: auto;
+  margin-bottom: 10%;
+  margin-top: 3%;
+}
+.novidade-area.payment p{
+  margin-top: 5%;
+  font-size: 15px;
+}
+.novidade-area.payment .section-headline h2{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.novidade-area.payment .section-headline h2,
+.novidade-area.novidade-area.payment p {
+  color: #000;
+}
+.novidade-area.payment .form-field {
+  margin-bottom: 32px;
+}
+
+.novidade-area.payment .layer-1-3 {
+  margin: 0;
+  padding: 0;
+}
+/* Radio Form in Payment */
+.novidade-area.payment .form-field .radio {
+  margin: 0;
+  padding-bottom: 45px;
+}
+.radio-choice {
+  position: relative;
+  float: left;
+}
+.novidade-area.payment .radio input[type='radio'] {
+  visibility: hidden;
+  position: absolute;
+}
+.novidade-area.payment .radio label {
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-transition: all 0.25s linear;
+  position: relative;
+  padding: 0px 0px 0px 15px;
+}
+.novidade-area.payment .radio .check {
+  display: block;
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: 1px;
+  left: 1px;
+  z-index: 5;
+  transition: border 0.25s linear;
+  -webkit-transition: border 0.25s linear;
+}
+
+.radio-choice:hover .check {
+  border: 5px solid #ffffff;
+}
+
+.radio-choice .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+  top: 3px;
+  left: 3px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+.one input[type='radio']:checked ~ .check {
+  border: 5px solid #d34848;
+}
+
+.two input[type='radio']:checked ~ .check {
+  border: 5px solid #1fe1e9;
+}
+
+.three input[type='radio']:checked ~ .check {
+  border: 5px solid #ffb33f;
+}
+
+.one input[type='radio']:checked ~ .check::before {
+  background: #d34848;
+}
+
+.two input[type='radio']:checked ~ .check::before {
+  background: #1fe1e9;
+}
+
+.three input[type='radio']:checked ~ .check::before {
+  background: #ffb33f;
+}
+
+/* input-form payment */
+input[type='text'] {
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+.form-control {
+  border-radius: 5px;
+  border: 2px solid #000;
+  margin-bottom: 15px;
+}
+.form-control:focus {
+  border: 2px solid #000;
+  border-bottom: 4px solid #5e33d1;
+  transition: 0.2s;
+}
+
+
 /*------------------------------
   14. OPINIÃO 
 --------------------------------*/
@@ -1623,7 +1777,8 @@ border: 0ch;
   padding: 100px;
 }
 
-.contact-form input[type="text"], .contact-form input[type="email"] {
+.contact-form input[type='text'],
+.contact-form input[type='email'] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 1px solid #ccc;
   border-radius: 0;
@@ -1634,7 +1789,7 @@ border: 0ch;
   width: 100%;
 }
 
-.contact-form textarea  {
+.contact-form textarea {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 1px solid #ccc;
   border-radius: 0;
@@ -1644,7 +1799,7 @@ border: 0ch;
   width: 100%;
 }
 
-.contact-form button[type="submit"] {
+.contact-form button[type='submit'] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 1px solid #ccc;
   color: #444;
@@ -1657,13 +1812,13 @@ border: 0ch;
   border-radius: 30px;
 }
 
-.contact-form button[type=submit]:hover {
+.contact-form button[type='submit']:hover {
   color: #fff;
   border: 1px solid var(--primary-color);
   background: var(--primary-color);
 }
 
-.contact-form  #sendmessage {
+.contact-form #sendmessage {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   display: none;
@@ -1683,7 +1838,9 @@ border: 0ch;
   margin-bottom: 15px;
 }
 
-.contact-form #sendmessage.show, .contact-form #errormessage.show, .contact-form .show {
+.contact-form #sendmessage.show,
+.contact-form #errormessage.show,
+.contact-form .show {
   display: block;
 }
 
@@ -1726,12 +1883,12 @@ border: 0ch;
 .footer-area {
   padding: 40px 0;
   background: #5e33d1;
-  color: #FFFFFF ;
+  color: #ffffff;
 }
-#company-link{
-  color: #FFFFFF;
+#company-link {
+  color: #ffffff;
 }
-#company-link:hover{
+#company-link:hover {
   text-decoration: underline;
 }
 
@@ -1740,7 +1897,7 @@ border: 0ch;
 }
 
 .footer-logo h2 {
-  color:#FFFFFF;
+  color: #ffffff;
   padding: 0;
   margin: 0;
   font-size: 36px;
@@ -1749,36 +1906,34 @@ border: 0ch;
   font-weight: 900;
 }
 
-
 .footer-area-bottom {
   background: #f1f1f1 none repeat scroll 0 0;
   padding: 15px 0;
 }
 
 .copyright-text a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.copyright>p {
+.copyright > p {
   margin-bottom: 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
 
-
 /*----------------------------------------
  .REVIEW BLUE
 ----------------------------------------*/
-.about-area.review{
+.about-area.review {
   background-color: #1fe1e9;
-  min-height:100%;
+  min-height: 100%;
 }
-#white-span{
-  color: #FFFFFF;
+#white-span {
+  color: #ffffff;
 }
-#black-span{
+#black-span {
   color: #000;
 }
